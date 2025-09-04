@@ -1,0 +1,23 @@
+{
+  "name": "helpcontent.front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "dotenv -e .env -- next dev --turbopack",
+    "build": "dotenv -e .env -- next build --turbopack",
+    "start": "dotenv -e .env -- next start"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
+    "bootstrap": "5",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-bootstrap": "2",
+    "react-dom": "19.1.0",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv-cli": "^7.4.4"
+  }
+}
