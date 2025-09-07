@@ -1,1 +1,17 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.code {
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.copy-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

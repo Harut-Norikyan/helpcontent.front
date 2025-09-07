@@ -69,12 +69,12 @@ body {
 }
 
 .heading_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // text-align: center;
 
-  h2 {
+  h1,h2{
     text-transform: uppercase;
     font-weight: bold;
 
@@ -84,17 +84,9 @@ body {
   }
 }
 
-
-/*header section*/
-.hero_area {}
-
-.sub_page {}
-
 .hero_area.sub_pages {
   height: auto;
 }
-
-.header_section {}
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -150,17 +142,6 @@ a:focus {
   color: #fafcfd;
 }
 
-.custom_nav-container .nav_search-btn {
-  background-image: url(../images/search-icon.png);
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position-y: 7px;
-  width: 35px;
-  height: 35px;
-  padding: 0;
-  border: none;
-}
-
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -185,112 +166,12 @@ a:focus {
   }
 }
 
-.navbar-toggler .navbar-toggler-icon {
-  background-image: url(../images/menu.png);
-  background-size: 35px;
-}
+// .navbar-toggler .navbar-toggler-icon {
+//   background-image: url(../images/menu.png);
+//   background-size: 35px;
+// }
 
 /*end header section*/
-
-// slider section
-.slider_section {
-  padding: 0 5%;
-  margin-top: 20px;
-
-  .slider_container {
-    background-image: url(../images/slider-bg.jpg);
-    background-size: cover;
-    color: $white;
-    padding: 25px 0;
-  }
-
-  .row {
-    align-items: center;
-  }
-
-  .img-box {
-    img {
-      width: 100%;
-    }
-  }
-
-  .detail-box {
-    width: 75%;
-    padding-left: 45px;
-
-    h1 {
-      font-weight: bold;
-      font-size: 4rem;
-      text-transform: uppercase;
-    }
-
-    a {
-      @include hero_btn($white, $black, 10px, 45px, 5px);
-      margin-top: 25px;
-      text-transform: uppercase;
-    }
-  }
-
-  .carousel-indicators {
-    margin: 0;
-    width: auto;
-    justify-content: flex-end;
-    bottom: initial;
-    top: 0;
-    left: initial;
-    right: -25px;
-
-    li {
-      text-indent: 0;
-      background-color: transparent;
-      opacity: 1;
-      border: none;
-      font-size: 7rem;
-      font-weight: bold;
-      width: auto;
-      height: auto;
-      display: none;
-      color: #1b1b1b;
-
-      &.active {
-        display: block;
-      }
-    }
-  }
-
-  .carousel_btn-box {
-    display: flex;
-    background-color: $white;
-    align-items: center;
-    position: absolute;
-    bottom: -25px;
-    right: 10%;
-    padding: 7px 10px;
-    border-radius: 5px 5px 0 0;
-
-    img {
-      margin: 0 10px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-      position: unset;
-      height: 25px;
-      width: 25px;
-      background-repeat: no-repeat;
-      opacity: 1;
-      background-position: center;
-    }
-
-    .carousel-control-prev {
-      background-image: url(../images/prev.png);
-    }
-
-    .carousel-control-next {
-      background-image: url(../images/next.png);
-    }
-  }
-}
 
 // end slider section
 
@@ -334,12 +215,12 @@ a:focus {
       color: $white;
       text-align: center;
       text-transform: uppercase;
-      min-width: 200px;
-      height: 200px;
+      min-width: 150px;
+      height: 150px;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 15px;
+      margin: 10px;
 
       h4 {
         margin: 0;
@@ -411,13 +292,13 @@ a:focus {
 
         }
 
-        .btn-1 {
-          background-image: url(../images/link.png);
-        }
+        // .btn-1 {
+        //   background-image: url(../images/link.png);
+        // }
 
-        .btn-2 {
-          background-image: url(../images/search.png);
-        }
+        // .btn-2 {
+        //   background-image: url(../images/search.png);
+        // }
 
 
       }
@@ -537,47 +418,6 @@ a:focus {
 
   }
 
-
-  .owl-carousel {
-    position: unset;
-    width: 90%;
-    margin: auto;
-
-    .owl-nav {
-
-      .owl-prev,
-      .owl-next {
-        background-color: $black;
-        width: 65px;
-        height: 75px;
-        outline: none;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background-repeat: no-repeat;
-        background-size: 15px;
-      }
-
-      .owl-prev {
-        left: -30px;
-        background-color: $black;
-        border-radius: 0 100% 100% 0;
-        background-image: url(../images/prev-arrow.png);
-        background-position: 37px center;
-      }
-
-      .owl-next {
-        right: -30px;
-        border-radius: 100% 0 0 100%;
-        background-image: url(../images/next-arrow.png);
-        background-position: 12.8px center;
-      }
-    }
-
-    .owl-dots {
-      display: none;
-    }
-  }
 }
 
 // end logo section
@@ -597,6 +437,9 @@ a:focus {
     h2 {
       font-size: 2.5rem;
     }
+    h1 {
+      font-size: 3rem;
+    }
   }
 
   .btn-box {
@@ -609,46 +452,6 @@ a:focus {
     }
   }
 }
-
-// end started section
-
-// agency section
-
-.agency_section {
-
-  .agency_container {
-    background-image: url(../images/agency-img.jpg);
-    background-size: cover;
-    margin: 0 45px;
-    padding: 90px 75px;
-
-    .box {
-      background-color: rgba($color: #000000, $alpha: .8);
-      color: $white;
-      width: 60%;
-      padding: 120px 90px;
-
-      .detail-box {
-        .heading_container {
-          align-items: flex-start;
-          text-align: left;
-        }
-
-        p {
-          margin-top: 35px;
-        }
-
-        a {
-          @include hero_btn($white, $black, 10px, 45px, 5px);
-          margin-top: 45px;
-        }
-      }
-    }
-  }
-
-}
-
-// end agency section
 
 // contact section
 .contact_section {
@@ -789,7 +592,7 @@ a:focus {
   position: relative;
   background-color: #2d2d2d;
   color: $white;
-  margin: 0 45px 45px;
+  // margin: 0 45px 45px;
 
   .social_container {
     justify-content: center;

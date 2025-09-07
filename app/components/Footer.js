@@ -1,63 +1,20 @@
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
-import location from "../images/location.png"
-import call from "../images/call.png"
-import mail from "../images/mail.png"
-import twitter from "../images/twitter.png"
-import linkedin from "../images/linkedin.png"
-import youtube from "../images/youtube.png"
-import fb from "../images/fb.png"
+import { MdOutlineEmail } from "react-icons/md";
+
 
 export default function Footer() {
   return (
     <section className="info_section  layout_padding2-top">
-      <div className="social_container">
-        <div className="social_box">
-          <a href="">
-            <img src="../images/fb.png" alt="" />
-            <Image src={fb} alt="" />
-          </a>
-          <a href="">
-            {/* <img src="images/twitter.png" alt=""> */}
-            <Image src={twitter} alt="" />
-          </a>
-          <a href="">
-            {/* <img src="images/linkedin.png" alt=""> */}
-            <Image src={linkedin} alt="" />
-          </a>
-          <a href="">
-            {/* <img src="images/youtube.png" alt=""> */}
-            <Image src={youtube} alt="" />
-          </a>
-        </div>
-      </div>
       <div className="info_container ">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-lg-3">
+            <div className="col-12">
               <h6>
                 ABOUT US
               </h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
-              </p>
-            </div>
-            <div className="col-md-6 col-lg-3">
-              <h6>
-                Instagram
-              </h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipi
-                scing elit, sed doLorem ipsum dolor sit
-              </p>
-            </div>
-            <div className="col-md-6 col-lg-3">
-              <h6>
-                NEED HELP
-              </h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
+                We built this platform to make developers’ lives easier. Instantly fetch sample text, images, audio, or video — no hassle, no hunting for resources. Focus on coding, prototyping, and creating — we handle the placeholders.
               </p>
             </div>
             <div className="col-md-6 col-lg-3">
@@ -65,16 +22,9 @@ export default function Footer() {
                 CONTACT US
               </h6>
               <div className="info_link-box">
-                <Link href="#">
-                  <Image src={location} alt="" />
-                  <span> Yerevan </span>
-                </Link>
-                <Link href="tel:+37493023002">
-                  <Image src={call} alt="Phone" />
-                  <span>+374 93 02 30 02</span>
-                </Link>
-                <Link href="mailto:info@helpcontent.net" >
-                  <Image src={mail} alt="" />
+                <Link className='d-flex align-items-center gap-2' href="mailto:info@helpcontent.net" style={{ textDecoration: "none" }} >
+                  {/* <Image src={mail} alt="" /> */}
+                  <MdOutlineEmail size={24} color='#fff' />
                   <span>info@helpcontent.net</span>
                 </Link>
               </div>
