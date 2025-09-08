@@ -1,7 +1,5 @@
 "use client";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import line from "./../images/line.png"
-import Image from "next/image";
 import DataRendererObj from "./DataRenderer";
 import { useState } from "react";
 import { FaRegCopy } from "react-icons/fa";
@@ -38,8 +36,8 @@ export default function ImageComponent() {
                                 <span>{'{'}&nbsp;</span>Image<span>&nbsp;{'}'}</span>
                             </h2>
                             <p className="text-center">
-                                Our API allows you to easily generate placeholder images of any size. 
-                                This is perfect for front-end development, UI/UX testing, prototyping, 
+                                Our API allows you to easily generate placeholder images of any size.
+                                This is perfect for front-end development, UI/UX testing, prototyping,
                                 or when you need quick sample visuals without manually creating images.
                             </p>
                         </Col>
@@ -116,8 +114,8 @@ export default function ImageComponent() {
                             <div className="text-start">
                                 <h3>When to use</h3>
                                 <p>
-                                    Use our image API whenever you need fast and customizable placeholder images. 
-                                    It’s ideal for wireframes, mockups, frontend demos, or testing responsive layouts 
+                                    Use our image API whenever you need fast and customizable placeholder images.
+                                    It’s ideal for wireframes, mockups, frontend demos, or testing responsive layouts
                                     without depending on real image assets.
                                 </p>
                             </div>
@@ -182,7 +180,7 @@ export default function ImageComponent() {
                         </Col>
                         <Col>
                             <div className="d-flex justify-content-center">
-                                <Image src={line} alt="" />
+                                <img src={"/images/line.png"} alt="" />
                             </div>
                         </Col>
                     </Row>

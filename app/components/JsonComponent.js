@@ -1,7 +1,5 @@
 "use client";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import line from "./../images/line.png"
-import Image from "next/image";
 import DataRendererObj from "./DataRenderer";
 import { useState } from "react";
 import { FaRegCopy } from "react-icons/fa";
@@ -222,7 +220,7 @@ export default function JsonComponent() {
                         </Col>
                         <Col>
                             <div className="d-flex justify-content-center">
-                                <Image src={line} alt="" />
+                                <img src={"/images/line.png"} alt="" />
                             </div>
                         </Col>
                     </Row>

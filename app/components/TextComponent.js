@@ -1,7 +1,5 @@
 "use client";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import line from "./../images/line.png";
-import Image from "next/image";
 import DataRendererObj from "./DataRenderer";
 import { useState } from "react";
 import { FaRegCopy } from "react-icons/fa";
@@ -40,8 +38,8 @@ export default function TextComponent() {
                                     <span>{'{'}&nbsp;</span>Text<span>&nbsp;{'}'}</span>
                                 </h2>
                                 <p className="text-center">
-                                    This endpoint allows you to fetch sample text data directly from our API. 
-                                    It’s useful for testing, debugging, and quickly getting placeholder content 
+                                    This endpoint allows you to fetch sample text data directly from our API.
+                                    It’s useful for testing, debugging, and quickly getting placeholder content
                                     for your applications or tutorials.
                                 </p>
                             </Col>
@@ -207,7 +205,7 @@ export default function TextComponent() {
                             {/* Line image */}
                             <Col>
                                 <div className="d-flex justify-content-center">
-                                    <Image src={line} alt="line separator" />
+                                    <img src={"/images/line.png"} alt="" />
                                 </div>
                             </Col>
                         </Row>

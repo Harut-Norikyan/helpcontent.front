@@ -34,16 +34,16 @@ export const metadata = {
     "HTML development",
   ],
   authors: [{ name: "HelpContent Team" }],
-  metadataBase: new URL("https://helpcontent.com"), // замени на свой домен
+  metadataBase: new URL("https://helpcontent.net"), // твой реальный домен
   openGraph: {
     title: "HelpContent – Test Data for Developers",
     description:
       "Use texts, JSON, images, audio, and video as test content in your HTML or applications until real data is available.",
-    url: "https://helpcontent.com",
+    url: "https://helpcontent.net",
     siteName: "HelpContent",
     images: [
       {
-        url: "/og-image.png", // сделай 1200x630 картинку
+        url: "/images/main-image.jpeg", // путь из public/
         width: 1200,
         height: 630,
         alt: "HelpContent preview",
@@ -57,7 +57,7 @@ export const metadata = {
     title: "HelpContent – Test Data for Developers",
     description:
       "HelpContent provides texts, JSON, images, audio, and video for HTML and test applications before you connect real server data.",
-    images: ["/og-image.png"],
+    images: ["/images/main-image.jpeg"], // путь из public/
     creator: "@helpcontent",
   },
   icons: {
@@ -66,7 +66,6 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
 };
-
 
 export default function RootLayout({ children }) {
   return (

@@ -23,8 +23,6 @@ export default function Header() {
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg custom_nav-container pt-3">
           <Link className="navbar-brand" href="/">
-            {/* <Image src={logo} alt="logo" width={100} height={50} /> */}
-
             <div className="heading_container">
               <h1>
                 <span>Help</span>
@@ -64,7 +62,7 @@ export default function Header() {
                   <Link className="nav-link" href="#video">VIDEO</Link>
                 </li>
               </ul>
-{/* 
+              {/* 
               <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button className="btn my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form> */}

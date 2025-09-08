@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import main_image from "./images/main-image.jpeg"
 import JsonComponent from "./components/JsonComponent"
 import TextComponent from "./components/TextComponent"
 import ImageComponent from "./components/ImageComponent";
@@ -24,7 +23,7 @@ export default function Home() {
             <div className="col-lg-6 ">
               <div className="img-container tab-content">
                 <div className="img-box tab-pane fade show active" id="img1" role="tabpanel">
-                  <Image src={main_image} alt="" />
+                  <img src={"/images/main-image.jpeg"} alt="" />
                 </div>
               </div>
             </div>

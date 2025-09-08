@@ -74,7 +74,8 @@ body {
   // align-items: center;
   // text-align: center;
 
-  h1,h2{
+  h1,
+  h2 {
     text-transform: uppercase;
     font-weight: bold;
 
@@ -178,7 +179,7 @@ a:focus {
 // service section
 
 .service_section {
-  background-image: url(../images/service-bg.jpg);
+  background-image: url("/images/service-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 85% 85%;
@@ -437,6 +438,7 @@ a:focus {
     h2 {
       font-size: 2.5rem;
     }
+
     h1 {
       font-size: 3rem;
     }

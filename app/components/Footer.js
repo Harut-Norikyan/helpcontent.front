@@ -23,7 +23,6 @@ export default function Footer() {
               </h6>
               <div className="info_link-box">
                 <Link className='d-flex align-items-center gap-2' href="mailto:info@helpcontent.net" style={{ textDecoration: "none" }} >
-                  {/* <Image src={mail} alt="" /> */}
                   <MdOutlineEmail size={24} color='#fff' />
                   <span>info@helpcontent.net</span>
                 </Link>

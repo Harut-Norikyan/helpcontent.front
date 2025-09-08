@@ -1,7 +1,6 @@
 "use client";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Image from "next/image";
-import line from "./../images/line.png";
 import { useState } from "react";
 import { FaRegCopy } from "react-icons/fa";
 import DataRendererObj from "./DataRenderer";
@@ -143,7 +142,7 @@ export function VideoComponent() {
                     </Col>
 
                     <Col className="d-flex justify-content-center my-4">
-                        <Image src={line} alt="" />
+                        <img src={"/images/line.png"} alt="" />
                     </Col>
                 </Row>
             </Container>

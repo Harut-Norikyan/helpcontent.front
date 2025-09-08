@@ -30,11 +30,13 @@ body {
   padding-bottom: 120px;
 }
 
-.heading_container h1, .heading_container h2 {
+.heading_container h1,
+.heading_container h2 {
   text-transform: uppercase;
   font-weight: bold;
 }
-.heading_container h1 span, .heading_container h2 span {
+.heading_container h1 span,
+.heading_container h2 span {
   color: #fbac2e;
 }
 
@@ -113,7 +115,7 @@ a:focus {
 
 /*end header section*/
 .service_section {
-  background-image: url(../images/service-bg.jpg);
+  background-image: url("/images/service-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 85% 85%;
