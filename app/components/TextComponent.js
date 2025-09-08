@@ -205,7 +205,7 @@ export default function TextComponent() {
                             {/* Line image */}
                             <Col>
                                 <div className="d-flex justify-content-center">
-                                    <img src={"/images/line.png"} alt="" />
+                                    <img src={"/images/line.png"} alt="line" />
                                 </div>
                             </Col>
                         </Row>

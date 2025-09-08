@@ -220,7 +220,7 @@ export default function JsonComponent() {
                         </Col>
                         <Col>
                             <div className="d-flex justify-content-center">
-                                <img src={"/images/line.png"} alt="" />
+                                <img src={"/images/line.png"} alt="line" />
                             </div>
                         </Col>
                     </Row>

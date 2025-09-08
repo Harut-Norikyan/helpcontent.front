@@ -143,7 +143,7 @@ export function AudioComponent() {
                     </Col>
 
                     <Col className="d-flex justify-content-center mt-4">
-                        <img src={"/images/line.png"} alt="" />
+                        <img src={"/images/line.png"} alt="line" />
                     </Col>
                 </Row>
             </Container>

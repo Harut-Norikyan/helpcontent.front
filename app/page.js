@@ -23,7 +23,7 @@ export default function Home() {
             <div className="col-lg-6 ">
               <div className="img-container tab-content">
                 <div className="img-box tab-pane fade show active" id="img1" role="tabpanel">
-                  <img src={"/images/main-image.jpeg"} alt="" />
+                  <img src={"/images/main-image.jpeg"} alt="main" />
                 </div>
               </div>
             </div>

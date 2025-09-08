@@ -142,7 +142,7 @@ export function VideoComponent() {
                     </Col>
 
                     <Col className="d-flex justify-content-center my-4">
-                        <img src={"/images/line.png"} alt="" />
+                        <img src={"/images/line.png"} alt="line" />
                     </Col>
                 </Row>
             </Container>

@@ -6,6 +6,7 @@ import "./styles/templateStyle.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -70,6 +71,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+      </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         {children}
