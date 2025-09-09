@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Script from "next/script";
+import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -71,7 +72,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-8DFQECXXJZ"
@@ -114,7 +115,7 @@ export default function RootLayout({ children }) {
         </noscript>
 
 
-      </head>
+      </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         {children}
