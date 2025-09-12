@@ -14,6 +14,9 @@ export default function Home() {
     }
   }
 
+  console.log("+");
+  
+
   return (
     <div>
       <section className="service_section layout_padding">
