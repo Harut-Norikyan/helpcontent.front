@@ -505,4 +505,16 @@ a:focus {
   color: #cbc9c9;
 }
 
-/* end footer section*//*# sourceMappingURL=templateStyle.css.map */
+/* end footer section*/
+.scroll-top {
+  position: fixed;
+  right: 20px;
+  bottom: 65px;
+  padding: 10px;
+  box-sizing: content-box;
+  background-color: #fbac2e;
+  border-radius: 5px;
+  z-index: 1002;
+  box-shadow: 0 0 2px 1px #ffffff;
+  cursor: pointer;
+}/*# sourceMappingURL=templateStyle.css.map */

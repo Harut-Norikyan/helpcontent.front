@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Script from "next/script";
 import Head from "next/head";
+import ScrollTop from "./components/ScrollTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -138,6 +139,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <ScrollTop />
 
         {/* Google Analytics */}
         <Script

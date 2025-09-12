@@ -689,3 +689,16 @@ a:focus {
 }
 
 /* end footer section*/
+
+.scroll-top {
+  position: fixed;
+  right: 20px;
+  bottom: 65px;
+  padding: 10px;
+  box-sizing: content-box;
+  background-color: $primary1;
+  border-radius: 5px;
+  z-index: 1002;
+  box-shadow: 0 0 2px 1px $white;
+  cursor: pointer;
+}
