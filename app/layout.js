@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Script from "next/script";
-import Head from "next/head";
 import ScrollTop from "./components/ScrollTop";
 
 const geistSans = Geist({

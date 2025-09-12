@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import JsonComponent from "./components/JsonComponent"
 import TextComponent from "./components/TextComponent"
 import ImageComponent from "./components/ImageComponent";
