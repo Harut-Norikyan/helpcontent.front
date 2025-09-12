@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
-            cd /var/www/helpcontent.front
+            cd ~/helpcontent.front
             git pull --no-rebase
             rm -rf node_modules .next
             npm install
