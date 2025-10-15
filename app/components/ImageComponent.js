@@ -142,7 +142,7 @@ export default function ImageComponent() {
                                                     onClick={() => copyText(`${mainUrl}/image/250/250`)}
                                                 />
                                             </span>
-                                            <span>(Square image 250x250) ✨</span>
+                                            <span>(Image 250x250) ✨</span>
                                         </p>
                                         <p className="d-flex justify-content-between">
                                             <span>GET</span>
@@ -157,7 +157,7 @@ export default function ImageComponent() {
                                                     onClick={() => copyText(`${mainUrl}/image/200/400`)}
                                                 />
                                             </span>
-                                            <span>(Portrait image 200x400) 🚀</span>
+                                            <span>(Image 200x400) 🚀</span>
                                         </p>
                                         <p className="d-flex justify-content-between">
                                             <span>GET</span>
@@ -172,7 +172,7 @@ export default function ImageComponent() {
                                                     onClick={() => copyText(`${mainUrl}/image/1000/500`)}
                                                 />
                                             </span>
-                                            <span>(Wide image 1000x500) 🎉</span>
+                                            <span>(Image 1000x500) 🎉</span>
                                         </p>
                                     </Col>
                                 </Row>

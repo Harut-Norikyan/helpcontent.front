@@ -1,11 +1,10 @@
 "use client";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import Image from "next/image";
 import { useState } from "react";
 import { FaRegCopy } from "react-icons/fa";
 import DataRendererObj from "./DataRenderer";
 
-export function VideoComponent() {
+export default function VideoComponent() {
     const mainUrl = process.env.NEXT_PUBLIC_API_URL || "";
     const [data, setData] = useState(null);
 
