@@ -36,7 +36,7 @@ export const metadata = {
     "HTML development",
   ],
   authors: [{ name: "HelpContent Team" }],
-  metadataBase: new URL("https://helpcontent.net"), // твой реальный домен
+  metadataBase: new URL("https://helpcontent.net"),
   openGraph: {
     title: "HelpContent – Test Data for Developers",
     description:
@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "HelpContent",
     images: [
       {
-        url: "/images/main-image.jpeg", // путь из public/
+        url: "/images/main-image.jpeg",
         width: 1200,
         height: 630,
         alt: "HelpContent preview",
@@ -59,7 +59,7 @@ export const metadata = {
     title: "HelpContent – Test Data for Developers",
     description:
       "HelpContent provides texts, JSON, images, audio, and video for HTML and test applications before you connect real server data.",
-    images: ["/images/main-image.jpeg"], // путь из public/
+    images: ["/images/main-image.jpeg"],
     creator: "@helpcontent",
   },
   icons: {
