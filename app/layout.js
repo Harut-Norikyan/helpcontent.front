@@ -36,7 +36,7 @@ export const metadata = {
     "HTML development",
   ],
   authors: [{ name: "HelpContent Team" }],
-  metadataBase: new URL("https://helpcontent.net"), // твой реальный домен
+  metadataBase: new URL("https://helpcontent.net"),
   openGraph: {
     title: "HelpContent – Test Data for Developers",
     description:
@@ -45,7 +45,7 @@ export const metadata = {
     siteName: "HelpContent",
     images: [
       {
-        url: "/images/main-image.jpeg", // путь из public/
+        url: "/images/main-image.jpeg",
         width: 1200,
         height: 630,
         alt: "HelpContent preview",
@@ -59,7 +59,7 @@ export const metadata = {
     title: "HelpContent – Test Data for Developers",
     description:
       "HelpContent provides texts, JSON, images, audio, and video for HTML and test applications before you connect real server data.",
-    images: ["/images/main-image.jpeg"], // путь из public/
+    images: ["/images/main-image.jpeg"],
     creator: "@helpcontent",
   },
   icons: {
@@ -77,18 +77,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-9929665031663141" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9929665031663141"
+          crossorigin="anonymous"></script>
+      </head>
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         {children}
         <Footer />
         <ScrollTop />
-        {/* Google AdSense */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9929665031663141"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-8DFQECXXJZ"
